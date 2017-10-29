@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+  {% include head.html %}
+
+  <body>
+
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+    <script src="{{ "/assets/js/portfolio/imagesloaded.pkgd.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/portfolio/masonry.pkgd.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/portfolio/classie.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/portfolio/cbpGridGallery.js" | relative_url }}"></script>
+    <script>
+      new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+    </script>
+  </body>
+</html>

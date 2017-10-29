@@ -1,0 +1,17 @@
+---
+layout: post
+date:   2014-04-06 23:26:12
+photo: 5.png
+caption_header: Sample header x
+caption: sample caption
+---
+
+<div class="container">
+  <h1>About 
+    <br>
+    <span class="name">{{ site.my_name }}</span>
+  </h1>
+
+  <p><strong>Page not made yet :(</strong></p>
+  <p>Maslo means butter in english. That's the reason behind 'butter blog' title.</p>
+</div>

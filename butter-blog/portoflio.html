@@ -1,0 +1,49 @@
+---
+layout: portfolio
+title: Portfolio
+menu: main
+---
+<div class="container">
+	<header style="display:none" class="clearfix">
+		<h1>{{ page.title }}</h1>
+	</header>
+	<div id="grid-gallery" class="grid-gallery">
+
+	<section class="grid-wrap">
+	<ul class="grid">
+		<li class="grid-sizer"></li><!-- for Masonry column width -->
+		{% for post in site.portfolio %}
+		<li>
+			<figure>
+				<img src="{{ site.baseurl }}/assets/img/portfolio/thumb/{{ post.photo }}" alt="img"/>
+				<figcaption>
+					<h3>{{ post.caption_header}}</h3>
+					<p>{{ post.caption }}</p>
+				</figcaption>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+	</section><!-- // grid-wrap -->
+
+	<section class="slideshow">
+	<ul>
+		{% for post in site.portfolio %}
+		<li>
+			<figure>
+				<img src="{{ site.baseurl }}/assets/img/portfolio/large/{{ post.photo }}" alt="img"/>
+				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.content }}</p></figcaption>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+	<nav>
+		<span class="icon nav-prev"></span>
+		<span class="icon nav-next"></span>
+		<span class="icon nav-close"></span>
+	</nav>
+	<div class="info-keys icon">Navigate with arrow keys</div>
+	</section><!-- // slideshow -->
+
+	</div><!-- // grid-gallery -->
+</div>
