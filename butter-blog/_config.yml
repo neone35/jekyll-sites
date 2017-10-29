@@ -24,7 +24,7 @@ github_username:  neone35
 my_name: Artūr Maslov
 
 # Destination inside folder for github pages
-destination: _site/butter-blog
+destination: ../../butter-blog
 
 # Build settings
 markdown: kramdown
