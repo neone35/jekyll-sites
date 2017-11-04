@@ -21,7 +21,7 @@ baseurl: "/butter-blog" # the subpath of your site, e.g. /blog
 url: "/butter-blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: neonartur
 github_username:  neone35
-my_name: Artūr Maslov
+author: Artūr Maslov
 
 # Destination inside folder for github pages
 destination: ../../butter-blog

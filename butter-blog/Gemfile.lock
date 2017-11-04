@@ -5,8 +5,16 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     backports (3.9.1)
     colorator (1.1.0)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.5-x86-mingw32)
     ffi (1.9.18-x86-mingw32)
     forwardable-extended (2.6.0)
+    hawkins (2.0.5)
+      em-websocket (~> 0.5)
+      jekyll (~> 3.1)
+    http_parser.rb (0.6.0)
     jekyll (3.5.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -81,6 +89,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  hawkins
   jekyll (= 3.5.2)
   jekyll-admin
   jekyll-feed
