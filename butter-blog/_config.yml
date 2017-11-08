@@ -18,7 +18,7 @@ email: aartasas@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Passion in cycling and coding. Working hard, dreaming big. Doing what is right, not what is easy.
 baseurl: "/butter-blog" # the subpath of your site, e.g. /blog
-url: "/butter-blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://neone35.github.io/butter-blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: neonartur
 github_username:  neone35
 author: Artūr Maslov

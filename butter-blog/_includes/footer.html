@@ -24,8 +24,8 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            <a href="https://github.com/{{ site.github_username }}" target="_top">
-              <object type="image/svg+xml" data="assets/img/blog/github.svg">
+            <a href="https://github.com/{{ site.github_username }}" class="a-github" target="_top">
+              <object type="image/svg+xml" data="{{ site.baseurl }}/assets/svg/github.svg">
                 Your browser does not support SVG
               </object>
               <span>neone35</span>
@@ -35,8 +35,8 @@
 
           {% if site.twitter_username %}
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_top">
-              <object type="image/svg+xml" data="assets/img/blog/twitter.svg">
+            <a href="https://twitter.com/{{ site.twitter_username }}" class="a-twitter" target="_top">
+              <object type="image/svg+xml" data="{{ site.baseurl }}/assets/svg/twitter.svg">
                 Your browser does not support SVG
               </object>
               <span>neonartur</span>      

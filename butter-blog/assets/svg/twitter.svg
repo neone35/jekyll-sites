@@ -4,8 +4,8 @@
 <svg class="social-svg-twitter" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="30px" height="30px" viewBox="0 0 486.392 486.392" style="enable-background:new 0 0 486.392 486.392;" xml:space="preserve">
 	 <style>
-		svg:hover path {
-	    	fill: #00aced;
+		svg path {
+	    	fill: #000;
 		}
 	</style>
 <g>
